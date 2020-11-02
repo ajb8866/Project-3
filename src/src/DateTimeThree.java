@@ -19,7 +19,7 @@ public  class DateTimeThree {
 	  */
 	 private Map<LocalDate, Integer> treeMap = new TreeMap<LocalDate, Integer>(dateHolder);
 	 /**
-	  * a constructor that adds all of the values, after turning them into the needed
+	  * a constructor that adds all of the values and keys to dateHolder after turning them into the needed
 	  * object type,  for the given file. The adds all the values to a tree list so it 
 	  * can be sorted 
 	  */

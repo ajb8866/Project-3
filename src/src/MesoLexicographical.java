@@ -23,13 +23,14 @@ public class MesoLexicographical extends MesoSortedAbstract
 				}
 	}
 
-	@Override
+
 	/**
 	 * a Map method that returns the sorted map from the given map
 	 * @param unsorted
 	 * the unsorted map given
 	 * @return treeMap
 	 */
+	@Override
 	 Map<String, Integer> sortedMap(HashMap<String, Integer> unsorted) {
 		return treeMap;
 	}

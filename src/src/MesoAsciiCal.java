@@ -19,11 +19,12 @@ public class MesoAsciiCal extends MesoAsciiAbstract
 	public MesoAsciiCal(MesoStation mesoStation) {
 		 this.stID =  mesoStation.getStID();
 		}
-	@Override
+
 	/*
 	 * a method that returns an int which represents the  value ascii letter average between the Norman station and the stID station
 	 * @return totalAvg
 	 */
+	@Override
 	public int calAverage() {
 		int floorAverage = 0;
 		int ceilingAverage = 0;

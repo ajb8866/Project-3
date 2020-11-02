@@ -17,7 +17,7 @@ public class MesoEquivalent {
 	 */
 	HashMap<String, Integer> stIDHolder = new HashMap<String, Integer>();
 	/**
-	 * a TreeMap tha hold all of the stIDHolder information in a sorted manner;
+	 * a TreeMap that holds all of the stIDHolder information in a sorted manner;
 	 */
 	Map<String, Integer> treeMap = new TreeMap<String, Integer>();
 	/**
